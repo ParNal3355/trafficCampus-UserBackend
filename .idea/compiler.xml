@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exam" />
+        <module name="core" />
+        <module name="charge" />
+        <module name="volunteer" />
+        <module name="report" />
+        <module name="main" />
+        <module name="plate" />
+        <module name="user" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="charge" options="-parameters" />
+      <module name="core" options="-parameters" />
+      <module name="exam" options="-parameters" />
+      <module name="main" options="-parameters" />
+      <module name="plate" options="-parameters" />
+      <module name="report" options="-parameters" />
+      <module name="trafficCampus" options="" />
+      <module name="user" options="-parameters" />
+      <module name="volunteer" options="-parameters" />
+    </option>
+  </component>
+</project>
