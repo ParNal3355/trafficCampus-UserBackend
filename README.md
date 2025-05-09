@@ -49,7 +49,7 @@ trafficCampus/
 ### 启动步骤
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/yourusername/traffic-campus.git
+git clone https://github.com/ParNal3355/trafficCampus-UserBackend.git
 
 # 2. 初始化数据库
 mysql -u root -p < document/trafficcampus.sql
